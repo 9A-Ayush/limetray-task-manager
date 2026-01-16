@@ -5,7 +5,7 @@ A modern, responsive **Task Manager** built with **React** that supports task cr
 ---
 ## 🔗 Live Preview
 
-🚀 **Live Demo:** [Click here to view the app](https://limetray-task-manager.vercel.app)
+🚀 **Live Demo:** [Click here to view the app](https://limetray-task-manager.vercel.app/)
 
 ---
 
