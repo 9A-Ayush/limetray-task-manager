@@ -3,6 +3,11 @@
 A modern, responsive **Task Manager** built with **React** that supports task creation, completion tracking, filtering, drag-and-drop reordering, persistent theming, and localStorage-based data persistence.
 
 ---
+## 🔗 Live Preview
+
+🚀 **Live Demo:** [Click here to view the app](https://limetray-task-manager.vercel.app)
+
+---
 
 ## 🚀 Features
 
@@ -94,12 +99,6 @@ src/
   <img src="./light.png" alt="Light Theme" width="45%" />
   <img src="./dark.png" alt="Dark Theme" width="45%" />
 </p>
-
----
-
-## 🔗 Live Preview
-
-🚀 **Live Demo:** [Click here to view the app](https://limetray-task-manager.vercel.app)
 
 ---
 
