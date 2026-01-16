@@ -90,8 +90,16 @@ src/
 
 ## 🖼 Screenshots
 
-![Light Theme](./light.png)
-![Dark Theme](./dark.png)
+<p align="center">
+  <img src="./light.png" alt="Light Theme" width="45%" />
+  <img src="./dark.png" alt="Dark Theme" width="45%" />
+</p>
+
+---
+
+## 🔗 Live Preview
+
+🚀 **Live Demo:** [Click here to view the app](https://limetray-task-manager.vercel.app)
 
 ---
 
