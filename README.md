@@ -50,7 +50,6 @@ src/
 ├── App.jsx
 ├── main.jsx
 
-
 ---
 
 ## 📦 State Management
