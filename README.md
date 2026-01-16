@@ -150,15 +150,20 @@ npm run test
 
 ---
 
-## 👤 Author
 
-**Ayush Kumar**
+## 👨‍💻 Author
 
-* GitHub: [9A-Ayush](https://github.com/9A-Ayush)
-* Project: [limetray-task-manager](https://github.com/9A-Ayush/limetray-task-manager)
+**Ayush Kumar**\
+[![GitHub](https://img.shields.io/badge/GitHub-9A--Ayush-black?logo=github)](https://github.com/9A-Ayush)\
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush%20Kumar-blue?logo=linkedin)](http://www.linkedin.com/in/ayush-kumar-849a1324b)\
+[![Instagram](https://img.shields.io/badge/Instagram-%40ayush__ix__xi-pink?logo=instagram)](https://www.instagram.com/ayush_ix_xi)
 
 ---
+## ☕ Support My Work  
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/9a.ayush)
+
+---
 ## 📄 License
 
 Licensed under the **MIT License**.
