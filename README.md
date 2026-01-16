@@ -1,34 +1,35 @@
 # 📝 Task Manager App
 
-A modern, responsive **Task Manager** built with **React** that supports task creation, completion tracking, filtering, drag-and-drop reordering, persistent theming, and local storage–based data persistence.
+A modern, responsive **Task Manager** built with **React** that supports task creation, completion tracking, filtering, drag-and-drop reordering, persistent theming, and localStorage-based data persistence.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Add, complete, and delete tasks
-- 🔍 Filter tasks by **All / Completed / Pending**
-- 🔀 Drag & Drop task reordering (enabled in *All* view)
-- 🌗 Light / Dark theme toggle with persistence
-- 💾 Tasks and theme saved in `localStorage`
-- 📱 Fully responsive UI
-- ⚡ Built using modern React patterns
+* ✅ Add, complete, and delete tasks
+* 🔍 Filter tasks by **All / Completed / Pending**
+* 🔀 Drag & Drop task reordering (**All view only**)
+* 🌗 Light / Dark theme toggle with persistence
+* 💾 Tasks and theme saved in `localStorage`
+* 📱 Fully responsive UI
+* ⚡ Built using modern React patterns
 
 ---
 
 ## 🛠 Tech Stack
 
-- React 18
-- Vite
-- Context API
-- @hello-pangea/dnd
-- CSS Variables
-- Custom Hooks
+* React 18
+* Vite
+* Context API
+* @hello-pangea/dnd
+* CSS Variables
+* Custom Hooks
 
 ---
 
 ## 🧠 Architecture Overview
 
+```
 src/
 │
 ├── components/
@@ -49,98 +50,111 @@ src/
 │
 ├── App.jsx
 ├── main.jsx
+```
 
 ---
 
 ## 📦 State Management
 
-- Context API is used to manage tasks globally.
-- A custom `useLocalStorage` hook ensures tasks and theme persist across page reloads.
-- Derived state is memoized using `useMemo` for better performance.
+* Global task state managed using **Context API**
+* Persistent storage handled via a custom `useLocalStorage` hook
+* Derived task lists optimized using `useMemo`
 
 ---
 
-## 🔀 Drag & Drop Behavior
+## 🔀 Drag & Drop Logic
 
-- Drag & Drop is enabled **only in the “All” view**.
-- Filtered views (`Completed`, `Pending`) display derived task lists.
-- Restricting reordering to the All view avoids data inconsistency and preserves task integrity.
+* Enabled **only in the “All” view**
+* Filtered views (`Completed`, `Pending`) are read-only
+* Prevents data inconsistency when reordering subsets
 
 ---
 
 ## 🌗 Theme System
 
-- Implemented using CSS variables
-- Theme is applied using a `data-theme` attribute on the `<html>` element
-- User preference is persisted in localStorage
+* Implemented with **CSS variables**
+* Applied using a `data-theme` attribute on `<html>`
+* User preference persisted in `localStorage`
 
 ---
 
-## 🎯 Design Decisions
+## 🎯 Key Design Decisions
 
-1. **Context API over Redux**: For this app's scope, Context API provides sufficient state management without additional dependencies
-
-2. **Drag & Drop in "All" View Only**: Prevents data inconsistencies when reordering filtered subsets of tasks
-
-3. **CSS Variables for Theming**: Enables dynamic theme switching without CSS-in-JS overhead
-
-4. **localStorage for Persistence**: Simple, effective solution for client-side data persistence without backend requirements
-
-5. **Component Composition**: Small, focused components for better maintainability and reusability
+1. **Context API over Redux** – Lightweight and sufficient for app scope
+2. **Restricted Drag & Drop** – Ensures task order integrity
+3. **CSS Variables** – Simple, performant theming solution
+4. **localStorage Persistence** – No backend required
+5. **Component-Based Architecture** – Clean, reusable, maintainable
 
 ---
+
 ## 🖼 Screenshots
 
-*Add screenshots here*
-![App Screenshot](./light.png)
-![App Screenshot](./dark.png)
+![Light Theme](./light.png)
+![Dark Theme](./dark.png)
+
+---
 
 ## ▶️ Getting Started
 
 ### Clone the repository
+
 ```bash
 git clone https://github.com/9A-Ayush/limetray-task-manager.git
 cd limetray-task-manager
 ```
 
 ### Install dependencies
+
 ```bash
 npm install
 ```
 
 ### Run the development server
+
 ```bash
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`
+App runs at: `http://localhost:5173`
 
 ### Build for production
+
 ```bash
 npm run build
 ```
 
 ### Preview production build
+
 ```bash
-npm preview
+npm run preview
 ```
+
+---
+
 ## 🧪 Testing
 
-This project uses Vitest and React Testing Library for unit and integration tests.
+* Vitest
+* React Testing Library
 
 ```bash
 npm run test
+```
+
+---
 
 ## 👤 Author
 
-**Ayush**
+**Ayush Kumar**
 
-- GitHub: [@9A-Ayush](https://github.com/9A-Ayush)
-- Project Link: [https://github.com/9A-Ayush/limetray-task-manager](https://github.com/9A-Ayush/limetray-task-manager)
+* GitHub: [9A-Ayush](https://github.com/9A-Ayush)
+* Project: [limetray-task-manager](https://github.com/9A-Ayush/limetray-task-manager)
+
+---
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+Licensed under the **MIT License**.
 
 ---
 
